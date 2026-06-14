@@ -1,0 +1,13 @@
+# Ignore OS-specific files
+Thumbs.db
+.DS_Store
+
+# Ignore environment variables / secrets
+.env
+secret_keys.txt
+
+# Ignore large data files
+*.csv
+*.json
+*.parquet
+!dirty_transactions.csv  # (This tells Git to allow ONLY your week 1 test file)
