@@ -66,6 +66,7 @@ def transform(clean_records):
     return totals
 
 def save(df, path):
+    path.parent.mkdir(parents=True, exist_ok=True)
     df.write_csv(path)
     logger.info("A %d by %d table has been written in %s", len(df), len(df.columns), path)
 
