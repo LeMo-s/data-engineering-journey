@@ -10,4 +10,9 @@
        (2, 'pear', 'fruit', 0.75),
        (3, 'carrot', 'vegetable', 0.30);
 
+    INSERT INTO products (id, name, category, price) VALUES
+    (4, 'banana', 'fruit', 0.40),
+    (5, 'potato', 'vegetable', 0.25),
+    (6, 'spinach', 'vegetable', 1.20);
+
    SELECT * FROM products;
